@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/13993e8f83.js" crossorigin="anonymous"></script>
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/projects/Gallery/src/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+
+    </script>
+    <title>Image Gallery</title>
+</head>
+<body>
+
+    <header>
+        <label class="logo">ArtGallery.</label>
+        <nav>
+           
+        <ul>
+            <li><a href="/projects/Gallery/pages/buildings.html">Buildings</a></li>
+            <li><a href="/projects/Gallery/pages/nature.html">Nature</a></li>
+            <li><a href="/projects/Gallery/pages/tools.html">Tools</a></li>
+            <li><a href="/projects/Gallery/pages/humans.html">Humans</a></li>
+            <li><a href="/projects/Gallery/pages/texture.html">Texture</a></li>
+            <li><a href="/projects/Gallery/index.html">Main</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fas fa-bars"></i>
+        </label>
+        </nav>
+    </header>
+<section>
+<div class="gallery">
+    <div id="box">
+        <img src="/projects/Gallery/img/texture/8.jpg" alt="pexels-steve-johnson-1774986">
+        <div class="middle" style="background-color: rgb(99, 99, 99);">
+            <div class="text">Steve Johnson</div>
+         </div>
+    </div>
+
+
+        <div id="box">
+            <img src="/projects/Gallery/img/texture/1.jpg" alt="pexels-anete-lusina-6331082">
+            <div class="middle" style="background-color: rgb(250, 170, 243);">
+                <div class="text">Anete Lusina</div>
+             </div>
+        </div>
+
+        <div class="h-strech"  id="box">
+            <img src="/projects/Gallery/img/texture/7.jpg" alt="Skylar-kang">
+            <div class="middle" style="background-color: rgb(99, 189, 99);">
+                <div class="text">Skylar Kang</div>
+             </div>
+        </div>
+
+        <div  id="box">
+            <img src="/projects/Gallery/img/texture/2.jpg" alt="pexels-anni-roenkae-2832432">
+            <div class="middle" style="background-color: rgb(101, 126, 186);">
+                <div class="text">Anni Roenkae</div>
+             </div>
+        </div>
+        <div class="v-strech" id="box">
+            <img src="/projects/Gallery/img/texture/3.jpg" alt="pexels-ekaterina-belinskaya-4744831">
+            <div class="middle" style="background-color: rgb(72, 139, 75);">
+                <div class="text">Ekaterina Belinkskaya</div>
+             </div>
+        </div>
+        <div id="box">
+            <img src="/projects/Gallery/img/texture/4.jpg" alt="pexels-ekaterina-belinskaya-4744857">
+            <div class="middle" style="background-color: rgb(247, 224, 53);">
+                <div class="text">Ekaterina Belinkskaya</div>
+             </div>
+        </div>
+        <div class="v-strech"  id="box">
+            <img src="/projects/Gallery/img/texture/5.jpg" alt="pexels-isaac-bañuelos-3467946">
+            <div class="middle" style="background-color: rgb(149, 123, 31);">
+                <div class="text">Isaac Bañuelos</div>
+             </div>
+        </div>
+        <div class="h-strech" id="box">
+            <img src="/projects/Gallery/img/texture/6.jpg" alt="pexels-nothing-ahead-3571563">
+            <div class="middle" style="background-color: rgb(0, 0, 0);">
+                <div class="text">Nothing Ahead</div>
+             </div>
+        </div>
+
+
+
+
+
+
+
+
+    
+</div>
+
+</section>
+
+    <footer>
+        <div>
+            <h2>Contact me @ contact@camilleliegard.com</h2>
+        </div>
+    </footer>
+
+    <script src="/projects/Gallery/src/app.js"></script>
+
+</body>
+</html>

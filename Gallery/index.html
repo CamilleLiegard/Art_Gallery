@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Plus+Jakarta+Sans:wght@200;400&family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/13993e8f83.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/projects/Gallery/src/mainstyle.css.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+
+    </script>
+    <title>Image Gallery</title>
+</head>
+<body>
+
+<header>
+    <label class="logo">ArtGallery.</label>
+    <nav>
+       
+    <ul>
+        <li><a href="/projects/Gallery/pages/buildings.html">Buildings</a></li>
+        <li><a href="/projects/Gallery/pages/nature.html">Nature</a></li>
+        <li><a href="/projects/Gallery/pages/tools.html">Tools</a></li>
+        <li><a href="/projects/Gallery/pages/humans.html">Humans</a></li>
+        <li><a href="/projects/Gallery/pages/texture.html">Texture</a></li>
+        <li><a href="/projects/Gallery/index.html">Main</a></li>
+    </ul>
+    <label id="icon">
+        <i class="fas fa-bars"></i>
+    </label>
+    </nav>
+</header>
+
+<div class="container">
+<div class="wrapper">
+
+    <div class="carousel">
+        <img src="/projects/Gallery/img/main/1.jpg" alt="img">
+
+        <img src="/projects/Gallery/img/main/2.jpg" alt="img">
+        <img src="/projects/Gallery/img/main/3.jpg" alt="img">
+        <img src="/projects/Gallery/img/main/4.jpg" alt="img">
+        <img src="/projects/Gallery/img/main/5.jpg" alt="img">
+    </div>
+
+</div>
+
+</div>
+
+
+    <footer>
+        <div>
+            <p>Contact me @ contact@camilleliegard.com</p>
+        </div>
+    </footer>
+
+
+<script src="/projects/Gallery/src/app.js"></script>
+
+</body>
+</html>
